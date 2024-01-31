@@ -7,16 +7,15 @@ This Jupyter Book template allows you to setup a Jupyter-Book with ScaDS.AI logo
 > [!NOTE]
 > Do NOT clone this repository. Using it as template works as explained below.
 
-Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) and [jupyer book](https://jupyterbook.org/en/stable/intro.html) using `pip`:
+Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/), git and [jupyer book](https://jupyterbook.org/en/stable/intro.html) using [mamba]():
 
 ```bash
-pip install cookiecutter jupyter-book
+mamba create --name book-creation-env python=3.10 git cookiecutter jupyter-book
 ```
 
-You may need to install `git` as well:
-
-```
-mamba install git
+You can then activate the environment:
+```bash
+mamba activate book-creation-env
 ```
 
 Then, use the terminal to navigate to the directory where you want to create your new Jupyter Book and run the following command:
@@ -71,7 +70,10 @@ $ pip install -r requirements.txt
 $ jupyter-book build my_book/
 ```
 
-5. View your rendered book in `my_book/_build/html/index.html`.
+5. View your rendered book in `_build/html/index.html`.
+
+> [!WARNING]
+> Never upload this `_build` directory to github. These are generated files and should not be versioned.
 
 6. Make edits to your book by adding more content, updating the table of contents in `my_book/_toc.yml`, and and/or by editing the configuration file `my_book/_config.yml`. See the [Jupyter Book documentation](https://jupyterbook.org/intro.html) for more information on customizing your book.
 
@@ -79,7 +81,7 @@ $ jupyter-book build my_book/
    1. Make sure your book builds locally as expected (`jupyter-book build my_book/`) and that you have updated the `requirements.txt` file to include any additional packages required to build your book;
    2. Create a new public [GitHub repository](https://github.com/new) to host your book 
    3. Push your local book (including the `.github` hidden directory) to your GitHub repository.
-   4. Activate GitHub Pages for your repository by going to the `Settings` tab of your repository and under the **GitHub Pages** heading, choose the `gh-pages branch` from the **Source** drop-down list (it may take a moment until the first book finished building). For alternative methods of deploying your book online:
+   4. Activate GitHub Pages for your repository by going to the `Settings` tab of your repository and under the **GitHub Pages** heading, choose the `gh-pages branch` from the **Source** drop-down list. It may take a moment until the first book finished building. Sometimes, it is necessary to configure the `main` branch here until it ran through successfully and then modify it to the `gh-pages` branch.
       ![img.png](docs/images/gh-pages.png)
    5. The GitHub Actions workflow provided with the cookiecutter (`my_book/.github/workflows/deploy.yml`) will automatically deploy your book to the `gh-pages` branch of your repository once pushed. It is typically available after a few minutes at `https://<user>.github.io/<myonlinebook>/`. You may need to go to the `Settings` tab of your repository and under the **GitHub Pages** heading, choose the `gh-pages branch` from the **Source** drop-down list. For alternative methods of deploying your book online, see the See the [Jupyter Book documentation](https://jupyterbook.org/intro.html).
 
