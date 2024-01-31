@@ -1,6 +1,8 @@
 # Jupyter Book Template
 
-This Jupyter Book template allows you to setup a Jupyter-Book with ScaDS.AI logo in just ten minutes.
+This Jupyter Book template allows you to set up a Jupyter-Book with ScaDS.AI logo in just ten minutes.
+
+![img.png](docs/images/screenshot.png)
 
 ## How to use this template 
 
