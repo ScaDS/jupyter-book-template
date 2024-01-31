@@ -10,7 +10,7 @@ You can contribute in many ways:
 
 ### Report Bugs, Request Features or Submit Feedback
 
-Report bugs as a [GitHub issue](https://github.com/executablebooks/cookiecutter-jupyter-book/issues).
+Report bugs as a [GitHub issue](https://github.com/scads/jupyter-book-template/issues).
 
 If you are reporting a bug, please include:
 
@@ -27,17 +27,17 @@ If you are proposing a feature, please include:
 
 ### Improvements
 
-Look through the (https://github.com/executablebooks/cookiecutter-jupyter-book/issues) for bugs, feature requests, etc and feel free to contribute!
+Look through the (https://github.com/scads/jupyter-book-template/issues) for bugs, feature requests, etc and feel free to contribute!
 
 ## Get Started
 
-Ready to contribute? Here's how to set up `cookiecutter-jupyter-book` for local development.
+Ready to contribute? Here's how to set up `jupyter-book-template` for local development.
 
-1. Fork the `cookiecutter-jupyter-book` repo on GitHub.
+1. Fork the `scads/jupyter-book-template` repo on GitHub.
 2. Clone your fork locally and install requirements:
 
 ```sh
-git clone git@github.com:your_name_here/cookiecutter-jupyter-book.git
+git clone https://github.com/your_name_here/jupyter-book-template
 pip install -r requirements.txt
 ```
 
@@ -57,4 +57,4 @@ git commit -m "Your detailed description of your changes."
 git push origin name-of-your-bugfix-or-feature
 ```
 
-5. Open a pull request through the GitHub website. Naming convention for pull requests is [detailed here](https://github.com/executablebooks/.github/blob/main/CONTRIBUTING.md#commit-messages). For example, a pull request that adds a new feature might be titled: `✨ NEW: validate entered github username`.
+5. Open a pull request through the GitHub website. Naming convention for pull requests is [detailed here](https://github.com/scads/jupyter-book-template/blob/main/CONTRIBUTING.md#commit-messages).
