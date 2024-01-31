@@ -2,6 +2,10 @@
 
 {{ cookiecutter.book_short_description }}
 
+You can read its content at
+
+https://{{ cookiecutter.github_username }}.github.io/{{ cookiecutter.book_name }}
+
 ## Usage
 
 ### Building the book
