@@ -9,7 +9,7 @@ This Jupyter Book template allows you to set up a Jupyter-Book with ScaDS.AI log
 > [!NOTE]
 > Do NOT clone this repository. Using it as template works as explained below.
 
-Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/), git and [jupyer book](https://jupyterbook.org/en/stable/intro.html) using [mamba]():
+Install [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/), git and [Jupyter book](https://jupyterbook.org/en/stable/intro.html) using [mamba]():
 
 ```bash
 mamba create --name book-creation-env python=3.10 git cookiecutter jupyter-book
