@@ -79,7 +79,7 @@ $ jupyter-book build my_book/
 
 7. `jupyter-book-template` optionally comes with CI workflow files to help easily deploy your book online. A CI workflow file would have been included in your directory structure if you chose `1 - github` or `2 - gitlab` for `Select include_ci_files:` in Step 2 above. For example, if you chose `1 - github`, when ready to deploy your book online:
    1. Make sure your book builds locally as expected (`jupyter-book build my_book/`) and that you have updated the `requirements.txt` file to include any additional packages required to build your book;
-   2. Create a new public [GitHub repository](https://github.com/new) to host your book 
+   2. Create a new public [GitHub repository](https://github.com/new) to host your book. Make sure the repository name is equal to the `book_slug` you entered. 
    3. Push your local book (including the `.github` hidden directory) to your GitHub repository.
    4. Activate GitHub Pages for your repository by going to the `Settings` tab of your repository and under the **GitHub Pages** heading, choose the `gh-pages branch` from the **Source** drop-down list. It may take a moment until the first book finished building.
       ![img.png](docs/images/gh-pages.png)
