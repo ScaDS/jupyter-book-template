@@ -1,6 +1,6 @@
 {
   "author_name": "Scala Ble, Dataan Lytics and AI",
-  "github_username": "{{ cookiecutter.author_name.lower().replace(' ', '') }}",
+  "github_username": "scads",
   "email": "email_for_imprint@uni-leipzig.de",
   "book_name": "My Book",
   "book_slug": "{{ cookiecutter.book_name.lower().replace(' ', '_').replace('-', '_') }}",
