@@ -33,11 +33,11 @@ cookiecutter https://github.com/scads/jupyter-book-template
 ```
 
 ```
-  [1/9] author_name (Scala Ble, Dataan Lytics and AI): Robert Haase
-  [2/9] github_username (roberthaase): haesleinhuepf
+  [1/9] author_name (Your Name): Robert Haase
+  [2/9] github_username (scads):
   [3/9] email (email_for_imprint@uni-leipzig.de): robert.haase@uni-leipzig.de
-  [4/9] book_name (My Book): First book
-  [5/9] repository_name (first_book):
+  [4/9] book_name (My Book):
+  [5/9] repository_name (my_book):
   [6/9] book_short_description (Just another ScaDS.AI Jupyter Book about ...):
   [7/9] version ('0.1.0'):
   [8/9] open_source_license (CC BY 4.0):
