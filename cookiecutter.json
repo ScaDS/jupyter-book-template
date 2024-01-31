@@ -1,0 +1,15 @@
+{
+  "author_name": "Scala Ble, Dataan Lytics and AI",
+  "github_username": "{{ cookiecutter.author_name.lower().replace(' ', '') }}",
+  "email": "email_for_imprint@uni-leipzig.de",
+  "book_name": "My Book",
+  "book_slug": "{{ cookiecutter.book_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "book_short_description": "Just another ScaDS.AI Jupyter Book about ...",
+  "version": "'0.1.0'",
+  "open_source_license": "CC BY 4.0",
+  "include_ci": [
+    "github",
+    "gitlab",
+    "no"
+  ]
+}
