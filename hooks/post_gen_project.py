@@ -83,13 +83,13 @@ if license:
 
 # Legacy support for old JB ToC format
 if version < "0.11.0":
-    remove("{{cookiecutter.book_slug}}/_toc.yml")
+    remove("{{cookiecutter.repository_name}}/_toc.yml")
     rename(
-        "{{cookiecutter.book_slug}}/_toc-legacy.yml",
-        "{{cookiecutter.book_slug}}/_toc.yml",
+        "{{cookiecutter.repository_name}}/_toc-legacy.yml",
+        "{{cookiecutter.repository_name}}/_toc.yml",
     )
 else:
-    remove("{{cookiecutter.book_slug}}/_toc-legacy.yml")
+    remove("{{cookiecutter.repository_name}}/_toc-legacy.yml")
 
 
 # Check existence of GitHub user, else raise warning
