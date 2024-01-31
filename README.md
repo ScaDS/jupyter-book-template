@@ -22,7 +22,7 @@ mamba install git
 Then, use the terminal to navigate to the directory where you want to create your new Jupyter Book and run the following command:
 
 ```bash
-cookiecutter C:/structure/code/jupyter-book-template2
+cookiecutter https://github.com/scads/jupyter-book-template
 ```
 
 The programm will guide you through the process of creating your new Jupyter Book:
